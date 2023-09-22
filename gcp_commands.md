@@ -1,16 +1,18 @@
-#GCP Command Reference
+# GCP Command Reference
+
 =====================
 
 These gcloud commands are used throughout the course:
 
 ## 00_04_Exercise_Files
+
 **Enable APIs:**
 gcloud services enable iam.googleapis.com
 
 gcloud services enable cloudresourcemanager.googleapis.com
 
-
 ## 04_03_Terraform_Cloud_Setup
+
 ```
 gcloud iam service-accounts create terraform-cloud \
     --description="SA for Terraform Cloud operations" \
